@@ -14,9 +14,9 @@ public class Generator {
     public static void main(String[] args) {
         Config config = new Config();
         config.setGenLogFile(Paths.get(System.getProperty("user.home"), "gen.log").toString());
-        config.setUrl("jdbc:mysql://106.13.146.82:3306/daojia?useSSL=false");
+        config.setUrl("jdbc:mysql://localhost:3306/daojia?useSSL=false");
         config.setUsername("root");
-        config.setPassword("Mysql2ol9");
+        config.setPassword("root");
 
         config.setEntityPackage("io.github.itliwei.daojia.tenant.entity");
 
