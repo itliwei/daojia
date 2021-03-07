@@ -86,10 +86,6 @@ public class SysUser extends TenantBaseEntity {
     @View(groups = {DTO,VO})
     private String avatar;
 
-    @Field(label = "角色")
-    @View(groups = {DTO,VO})
-    private String roles;
-
     @Field(label = "是否有效")
     @Query({Condition.Operator.eq})
     @View(groups = {DTO,VO})

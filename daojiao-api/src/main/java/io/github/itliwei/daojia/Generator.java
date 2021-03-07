@@ -18,7 +18,7 @@ public class Generator {
         config.setUsername("root");
         config.setPassword("root");
 
-        config.setEntityPackage("io.github.itliwei.daojia.tenant.entity");
+        config.setEntityPackage("io.github.itliwei.daojia.system.user.entity");
 
         config.setUseLombok(true);
 
@@ -30,12 +30,12 @@ public class Generator {
         config.setVoSuffix("VO");
         config.setDtoSuffix("DTO");
         io.github.itliwei.vboot.vorm.generator.Generator.generate(config
-                  , new VoHandler()
-                , new QueryModelHandler()
-                , new ServiceHandler()
-                , new ControllerHandler()
-//                , new ElementHandler()
-               , new MysqlHandler(true)
+//                  , new VoHandler()
+//                , new QueryModelHandler()
+//                , new ServiceHandler()
+//                , new ControllerHandler()
+                , new ElementHandler()
+//               , new MysqlHandler(true)
         );
 
     }
