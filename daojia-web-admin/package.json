@@ -1,9 +1,9 @@
 {
-  "name": "ziroom-vue-template",
+  "name": "daojia-vue-template",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "ziroom-vue-template",
-  "author": "yanglg1@ziroom.com",
+  "description": "daojia-vue-template",
+  "author": "itliwei@163.com",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
